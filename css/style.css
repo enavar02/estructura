@@ -1,0 +1,155 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; 
+  height: 100%; 
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+background-color: #FFFFFF !important;
+font-size: 1.6rem;
+font-family: 'Open Sans', sans-serif;  
+}
+.log-top-cell{
+  display: none;
+}
+.log-popup-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.log-popup{
+  padding: 0;
+}
+.log-popup-caption-wrap{
+  display: none;
+}
+.main-wrapper-footer-cell{
+  display: none;
+}
+.main-title{
+  display: none;
+}
+.content-wrap{
+  margin-top: -9rem;
+  margin-left: -10px;
+}
+
+
+/* HEADER */
+
+
+.logob24{
+  width: 385px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.franja{
+  background-color: #ed1933;
+  width: 100%;
+  height: 200px;
+  
+}
+
+
+.item-gold{
+  margin-top: 22px;
+  text-align: end;
+}
+
+.logo-gold{
+  width: 260px;
+  margin-top: -74px;
+  margin-right: 90px;
+}
+
+.titulo-encusta{
+  color: #FFFFFF;
+}
+
+.parrafo{
+  font-size: 6.5rem;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+
+/* FOOTER */
+
+.footer{
+background-color: #57585A;
+height: 36rem;
+}
+.footer-item{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-left: 90px;
+}
+.footer1{
+display: grid;
+grid-template-rows: 20% 50%;
+margin: 40px;
+grid-gap: 10px;
+}
+.footer-logo{
+width: 55%;
+color: #FFFFFF;
+}
+.slogan-asesores{
+color: #FFFFFF;
+text-align: justify;
+}
+.asesores{
+font-weight: bold;
+}
+.footer2{
+margin: 20px 40px 40px 80px;
+color: #FFFFFF;
+font-size: 11px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.footer3{
+margin-top: 30px;
+text-align: center;
+}
+.footer-mapa{
+width: 40%;
+margin-right: 165px;
+}
+
+
+/********Notificaciones************/
+
+.sombra{
+  -webkit-box-shadow: 2px 5px 4px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 2px 5px 4px 0px rgba(0,0,0,0.5);
+  box-shadow: 2px 5px 4px 0px rgba(0,0,0,0.5);
+  border-radius: 1rem;
+  }
+  .notificacion{
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem 3rem;
+  opacity: 0; 
+  }
+  
+  .visible{
+  opacity: 1;
+  }
+  .correcto{
+  background-color: rgb(179, 241, 117);
+  color: green;
+  }
+  .error{
+  background-color: rgb(238, 148, 166);
+  color: rgb(163, 0, 33);
+  }
+  .legend{
+    float: none;
+  }
+  /******************************/
+
